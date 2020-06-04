@@ -9,9 +9,11 @@ How to run the project:
 
 1.First install Django in your machine:
 pip install django==2.0.2 (please make sure you install this specific version only)
-2. Create the project folder:
+
+2. Create the project folder and get the dump of the code in the same manner it resides in the repositories:
 django-admin startproject <folder name>
-run the server by executing the manage.py:
+  
+3.run the server by executing the manage.py:
 python manage.py runserver
 It will show ip address and port please paste that into your browser to access the wordcount website like:
 http://127.0.0.1:8000/
