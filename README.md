@@ -16,9 +16,10 @@ python manage.py runserver
 It will show ip address and port please paste that into your browser to access the wordcount website like:
 http://127.0.0.1:8000/
 
-*******************************************************************************************************************************
+******************************************************************************************************************************
 
 Bonus:
+
 Django Cheat Sheet:
 Creating a new project:
 django-admin startproject projectname
