@@ -1,0 +1,13 @@
+<h1>This is a support page.</h1>
+<h2>Please enter your queries here</h2>
+
+<a href="{% url 'home' %}"> Return Home</a>
+<br />
+
+<form action="{% url 'supporthandler' %}">
+  <br />
+  <textarea cols="40" rows="5" name="fulltext"></textarea>
+  <br />
+  <input type="submit" value="enter"></input>
+
+</form>
